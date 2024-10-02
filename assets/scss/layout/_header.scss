@@ -1,4 +1,44 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo {
+  float: left;
+}
+
+.logo-style {
+  display: block;
+  width: 192px;
+  height: 58px;
+  background-image: url(/assets/images/logo-t.jpg);
+  background-position: center;
+  background-size: cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .logo-style {
+    width: 299px;
+    height: 99px;
+  }
+}
+.header-icon {
+  display: inline-block;
+  color: #e7adac;
+}
+
+.icon {
+  font-size: 30px;
+}
+@media (min-width: 992px) {
+  .icon {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-ps {
+    margin: 0 auto;
+  }
+  .me-120 {
+    margin-right: 120px;
+  }
 }

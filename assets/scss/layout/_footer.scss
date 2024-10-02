@@ -1,4 +1,32 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.media {
+  font-size: 47px;
+}
+
+.footer-h {
+  padding: 30px 0px 30px 0px;
+}
+
+@media (min-width: 992px) {
+  .footer-h {
+    padding: 80px 0px 80px 0px;
+  }
+}
+
+.media-br {
+  border-top: 1px solid #f2a09e;
+}
+
+@media (min-width: 768px) {
+  .media-br {
+    border-top: 0px;
+  }
+}
+
+.footer-br {
+  border-top: 0px;
+}
+@media (min-width: 768px) {
+  .footer-br {
+    border-top: 1px solid #f2a09e;
+  }
 }
