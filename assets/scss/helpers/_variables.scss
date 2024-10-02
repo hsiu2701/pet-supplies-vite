@@ -396,7 +396,8 @@ $enable-grid-classes: true !default;
 $enable-container-classes: true !default;
 $enable-cssgrid: false !default;
 $enable-button-pointers: true !default;
-$enable-rfs: true !default;
+// $enable-rfs: true !default;
+$enable-rfs: false !default;
 $enable-validation-icons: true !default;
 $enable-negative-margins: false !default;
 $enable-deprecation-messages: true !default;
@@ -466,8 +467,10 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-text-align: null !default;
-$body-color: $gray-900 !default;
-$body-bg: $white !default;
+// $body-color: $gray-900 !default;
+$body-color: $brand-01 !default;
+// $body-bg: $white !default;
+$body-bg: $gray-05 !default;
 
 $body-secondary-color: rgba($body-color, 0.75) !default;
 $body-secondary-bg: $gray-200 !default;
@@ -653,7 +656,8 @@ $font-weight-normal: 400 !default;
 $font-weight-medium: 500 !default;
 $font-weight-semibold: 600 !default;
 $font-weight-bold: 700 !default;
-$font-weight-bolder: bolder !default;
+// $font-weight-bolder: bolder !default;
+$font-weight-bolder: 700 !default;
 
 $font-weight-base: $font-weight-normal !default;
 
