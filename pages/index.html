@@ -19,10 +19,30 @@
 
   <body>
     <%- include('./layout/header'); -%>
-    <h1 class="index-title text-gray-02 mb-8">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px" alt="cat" />
-    <div>test</div>
-    <div>123</div>
+    <!-- banner -->
+    <div class="banner-img">
+      <div class="container">
+        <div class="row">
+          <div class="banner-mt">
+            <p class="benner-style fw-bold text-white">
+              與毛孩享受生活<br />為毛孩選擇最好
+            </p>
+            <div class="banner-item">
+              <p class="bg-white ps-4 py-1 mt-2">
+                能與寶貝相遇 -- 是緣分,也是幸福的開始
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-brand-02 border border-white text-white rounded-pill h5 mt-9"
+            >
+              馬上選購
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

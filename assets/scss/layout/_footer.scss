@@ -3,12 +3,14 @@
 }
 
 .footer-h {
-  padding: 30px 0px 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 992px) {
   .footer-h {
-    padding: 80px 0px 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -28,5 +30,24 @@
 @media (min-width: 768px) {
   .footer-br {
     border-top: 1px solid #f2a09e;
+  }
+}
+
+.footer-fs {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-fs {
+    font-size: 1.5rem;
+  }
+}
+.footer-w {
+  width: 265.77px;
+}
+
+@media (min-width: 768px) {
+  .footer-w {
+    width: 552px;
   }
 }

@@ -23,14 +23,20 @@
 .header-icon {
   display: inline-block;
   color: #e7adac;
-}
-
-.icon {
   font-size: 30px;
 }
 @media (min-width: 992px) {
-  .icon {
+  .header-icon {
     font-size: 44px;
+  }
+}
+
+.ion-me {
+  margin-right: 80px;
+}
+@media (min-width: 992px) {
+  .ion-me {
+    margin-right: 0px;
   }
 }
 
@@ -49,6 +55,7 @@
 
 .position-nav {
   position: absolute;
-  top: -42px;
-  right: 0px;
+  top: -50px;
+  right: 30px;
+  border: 0px;
 }
