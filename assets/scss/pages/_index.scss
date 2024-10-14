@@ -42,3 +42,73 @@
     font-size: 1.75rem;
   }
 }
+// 初衷
+.themes-my {
+  margin-top: 146px;
+}
+
+@media (min-width: 768px) {
+  .themes-my {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+.themes-item {
+  padding: 121px 47px 32px 47px;
+}
+
+@media (min-width: 768px) {
+  .themes-item {
+    padding: 126.5px 64px 126.5px 0;
+  }
+}
+
+.themes-text {
+  font-size: 2.5rem;
+  line-height: 48px;
+}
+@media (min-width: 768px) {
+  .themes-text {
+    font-size: 5rem;
+    line-height: 96px;
+  }
+}
+
+.rounded-24 {
+  border-radius: 24px;
+}
+
+.themes-shadow {
+  box-shadow: 0px 4px 20px 0px #00000040;
+}
+
+.themes-dog {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    right: 30%;
+    bottom: 385px;
+    width: 256px;
+    height: 223px;
+    background: url("/assets/images/index-banner-dog-pc.png");
+    border-radius: 32px;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (min-width: 768px) {
+  .themes-dog {
+    &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      right: 520px;
+      bottom: 70px;
+      width: 798px;
+      height: 539px;
+    }
+  }
+}
