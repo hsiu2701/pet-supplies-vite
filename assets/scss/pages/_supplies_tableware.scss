@@ -1,0 +1,20 @@
+.banner-dog {
+  background-image: url(/assets/images/freestocks-t8SxccV0Agw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 562px;
+}
+@media (min-width: 768px) {
+  .banner-img {
+    height: 972px;
+  }
+}
+
+.banner-dog-mt {
+  margin-top: 290px;
+}
+@media (min-width: 768px) {
+  .banner-mt {
+    margin-top: 200px;
+  }
+}
