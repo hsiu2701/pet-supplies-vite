@@ -102,3 +102,94 @@
     }
   }
 }
+
+.mt-11 {
+  margin-top: 44px;
+}
+
+.pet-btn-container {
+  font-size: 24px;
+  .button-group {
+    .btn {
+      color: $brand-01;
+      background-color: white;
+      padding: 12px 32px;
+      border-color: $brand-01;
+      border-radius: 100px;
+  }
+  .btn-selected {
+    color: white;
+    background-color: $brand-01;
+  }
+}
+}
+
+@media (min-width: 768px) {
+  .pet-item {
+    margin-bottom: 64px;
+  }
+}
+
+// dogAccessories
+.dog-bg {
+  background: url("/assets/images/index-dog-supplies-pc.png");
+  background-size: cover;
+  background-position: left;
+  border-radius: 32px;
+  height: 416px;
+}
+
+@media (min-width:768px) {
+    .custom-margin-start {
+        margin-top: 48px;
+        margin-left: 40px; 
+    }
+}
+
+
+.cat-bg {
+  background: url("/assets/images/index-cat-supplies-pc.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 32px;
+  height: 416px;
+}
+
+@media (min-width:768px) {
+  .custom-margin-end {
+      margin-top: 48px;
+      margin-right: 40px; 
+  }
+}
+
+.pet-content-container {
+  height: 304px;
+  width: 284px;
+  .pet-item-subtitle{
+    background-color: $brand-01;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+}
+
+.button-collection {
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.btn-accessories {
+  padding: 16px 20px;
+  border-radius: 6px;
+  background-color: white;
+  border-color: $brand-01;
+  align-items: center;
+}
+
+
+.btn-accessories svg {
+  fill: $brand-02;
+  .icon:hover{
+    fill: white;  
+  }
+}
