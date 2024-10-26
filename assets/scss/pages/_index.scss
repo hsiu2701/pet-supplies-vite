@@ -58,6 +58,7 @@
   font-size: 2.5rem;
   line-height: 48px;
 }
+
 @media (min-width: 768px) {
   .themes-text {
     font-size: 5rem;
@@ -116,12 +117,12 @@
       padding: 12px 32px;
       border-color: $brand-01;
       border-radius: 100px;
+    }
+    .btn-selected {
+      color: white;
+      background-color: $brand-01;
+    }
   }
-  .btn-selected {
-    color: white;
-    background-color: $brand-01;
-  }
-}
 }
 
 @media (min-width: 768px) {
@@ -139,13 +140,12 @@
   height: 416px;
 }
 
-@media (min-width:768px) {
-    .custom-margin-start {
-        margin-top: 48px;
-        margin-left: 40px; 
-    }
+@media (min-width: 768px) {
+  .custom-margin-start {
+    margin-top: 48px;
+    margin-left: 40px;
+  }
 }
-
 
 .cat-bg {
   background: url("/assets/images/index-cat-supplies-pc.png");
@@ -155,17 +155,17 @@
   height: 416px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .custom-margin-end {
-      margin-top: 48px;
-      margin-right: 40px; 
+    margin-top: 48px;
+    margin-right: 40px;
   }
 }
 
 .pet-content-container {
   height: 304px;
   width: 284px;
-  .pet-item-subtitle{
+  .pet-item-subtitle {
     background-color: $brand-01;
     align-items: center;
     padding: 8px 12px;
@@ -186,10 +186,9 @@
   align-items: center;
 }
 
-
 .btn-accessories svg {
   fill: $brand-02;
-  .icon:hover{
-    fill: white;  
+  .icon:hover {
+    fill: white;
   }
 }

@@ -51,3 +51,16 @@
     width: 552px;
   }
 }
+
+.link-style {
+  display: inline-block;
+  color: #1e1e1e;
+}
+
+.footer-active:after {
+  color: #f2a09e;
+}
+
+.haver-brand-01:hover {
+  color: $brand-01;
+}

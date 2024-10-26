@@ -16,8 +16,9 @@ $utilities: map-merge(
   line-height: 1.2;
   text-shadow: 4px 4px #00000040;
 }
-
-.benner-style {
-  font-size: 5rem;
-  line-height: 96px;
+@media (min-width: 768px) {
+  .benner-style {
+    font-size: 5rem;
+    line-height: 96px;
+  }
 }
