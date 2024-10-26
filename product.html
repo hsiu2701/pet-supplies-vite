@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="data:image/png;base64,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" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <title>毛茸茸的朋友</title>
+  <script type="module" crossorigin src="/pet-supplies-vite/assets/main-5b3d4d0d.js"></script>
+  <link rel="stylesheet" href="/pet-supplies-vite/assets/main-08089f86.css">
+</head>
+
+<body>
+  <div class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div
+        class="d-flex justify-content-between align-items-center logo position-relative mt-2"
+      >
+        <h1>
+          <a class="logo-style" href="../pages/index.html">毛茸茸的朋友</a>
+        </h1>
+        <div>
+          <a class="me-0 me-lg-6 d-none d-lg-inline-block" href="#"
+            ><span class="material-symbols-outlined header-icon">
+              person
+            </span></a
+          >
+          <a class="ion-me me-lg-0 mt-2 mt-lg-0" href="#"
+            ><span class="material-symbols-outlined header-icon">
+              shopping_cart
+            </span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light pb-2 pb-lg-0">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler fs-6 position-nav"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ps pt-8 pt-lg-0">
+            <li class="nav-item dropdown me-120 text-center">
+              <a
+                class="nav-link dropdown-toggle link-gray-01 fw-bold"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                狗狗
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <p class="link-gray-01 ps-3">食品—</p>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">飼料</a>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">零食</a>
+                </li>
+                <li>
+                  <p class="link-gray-01 ps-3">用品—</p>
+                  <a
+                    class="dropdown-item link-gray-01 ps-8"
+                    href="supplies.html"
+                    >好物</a
+                  >
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">衣服</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a
+                class="nav-link dropdown-toggle link-gray-01 fw-bold me-120"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                貓貓
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <p class="ps-3 link-gray-01">食品—</p>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">飼料</a>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">零食</a>
+                </li>
+                <li>
+                  <p class="ps-3 link-gray-01">用品—</p>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">好物</a>
+                  <a class="dropdown-item link-gray-01 ps-8" href="#">衣服</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link link-gray-01 fw-bold me-120" href="#"
+                >主打商品</a
+              >
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link link-gray-01 fw-bold" href="#">毛孩小教室</a>
+            </li>
+            <li class="nav-item d-inline-block d-lg-none text-center">
+              <a class="nav-link link-gray-01 fw-bold register" href="#"
+                >註冊/登入</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+    <!-- 商品路徑 -->
+    <div class="nav-container">
+      <nav aria-label="breadcrumb" class="col-12">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">全部商品</a></li>
+          <li class="breadcrumb-item"><a href="#">胸背牽繩</a></li>
+          <li class="breadcrumb-item active" aria-current="page">胸背帶</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-continer">
+      <div class="container product-details mt-2">
+        <div class="row d-flex flex-column flex-md-row">
+          <!-- 左邊的商品圖片 -->
+          <div class="col-md-5 col-12 img-container">
+            <div class="product-image">
+              <div id="carouselImage" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/pet-supplies-vite/assets/jemmy_6524_a_pet_Harness_white_background_commercial_photo_prod_beecd84a-5b11-483a-be09-fe120476103d-0e53951a.png"
+                      class="carousel-main-img w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/pet-supplies-vite/assets/janosch-diggelmann-IyANA6cM_sE-unsplash-04e84ae9.png"
+                      class="carousel-main-img w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/pet-supplies-vite/assets/cierra-voelkl-vG9Y66HjznA-unsplash-995daad5.png" class="carousel-main-img w-100"
+                      alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselImage"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselImage"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- 商品圖片縮圖導航 -->
+            <div class="carousel-thumbnails d-flex mt-4">
+              <img
+                src="/pet-supplies-vite/assets/jemmy_6524_a_pet_Harness_white_background_commercial_photo_prod_beecd84a-5b11-483a-be09-fe120476103d-0e53951a.png"
+                data-bs-target="#carouselImage" data-bs-slide-to="0" class="active carousel-thumbnail-img"
+                alt="Thumbnail 1">
+              <img src="/pet-supplies-vite/assets/janosch-diggelmann-IyANA6cM_sE-unsplash-04e84ae9.png" data-bs-target="#carouselImage"
+                data-bs-slide-to="1" alt="Thumbnail 2" class="carousel-thumbnail-img">
+              <img src="/pet-supplies-vite/assets/cierra-voelkl-vG9Y66HjznA-unsplash-995daad5.png" data-bs-target="#carouselImage"
+                data-bs-slide-to="2" alt="Thumbnail 3" class="carousel-thumbnail-img">
+            </div>
+          </div>
+
+          <!-- 右邊的商品資訊 -->
+          <div class="product-info col-md-5 col-12 mt-9 mt-md-0">
+            <!-- 商品標題 -->
+            <div class="row-container">
+              <h2 class="product-title">輕量化胸背</h2>
+            </div>
+
+            <!-- 商品選項 -->
+            <div class="product-options mt-9">
+              <!-- 尺寸選擇 -->
+              <div class="size-section">
+                <h5>尺寸</h5>
+                <div class="btn-group gap-2 mt-3" role="group" aria-label="Size options">
+                  <button type="button" class="btn btn-outline-gray btn-selected">XXS</button>
+                  <button type="button" class="btn btn-outline-gray">XS</button>
+                  <button type="button" class="btn btn-outline-gray">S</button>
+                  <button type="button" class="btn btn-outline-gray">M</button>
+                </div>
+              </div>
+              <!-- 顏色選擇 -->
+              <div class="color-section mt-7">
+                <h5>顏色</h5>
+                <div class="btn-group gap-2 mt-3" role="group" aria-label="Color options">
+                  <button type="button" class="btn btn-outline-gray btn-selected">藍色</button>
+                  <button type="button" class="btn btn-outline-gray">黑色</button>
+                  <button type="button" class="btn btn-outline-gray">迷彩</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- 價格 -->
+            <div class="product-price mt-4">
+              <h2>NT$1,150</h2>
+            </div>
+
+            <!-- 商品數量 -->
+            <div class="quantity-container mt-9">
+              <div class="btn-group w-100" role="group">
+                <button type="button" class="btn btn-outline-gray btn-quantity">-</button>
+                <input type="text" class="quantity-input" value="1">
+                <button type="button" class="btn btn-outline-gray btn-quantity">+</button>
+              </div>
+            </div>
+
+            <!-- 加入購物車與追蹤按鈕 -->
+            <div class="product-actions mt-9">
+              <button class="btn btn-add-to-cart w-100 py-2">加入購物車</button>
+              <button class="btn btn-add-to-watchlist w-100">追加追蹤清單</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <h2>商品資訊</h2>
+        <p>
+          輕量化胸背是一款輕量級、低調的狗狗背帶,既適合快節奏的活動,也適合那些喜歡極簡設計自由的寵物。這是一款適合小型犬的絕佳背帶,通過四個調節點讓胸背更舒適及服貼。擁有兩個牽繩點:背部的鋁合金V形環和前胸的超強織帶環。
+        </p>
+        <p></p>
+      </div>
+
+    </div>
+    <div class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="footer-h">
+        <ul class="list-unstyled d-flex justify-content-between flex-wrap">
+          <li>
+            <h4 class="text-gray-01 mb-3 ms-4 ms-lg-0">購物服務 Services</h4>
+            <div class="d-flex flex-column">
+              <a
+                class="d-inline-block link-gray-01 py-4 ps-4 mb-lg-2 ps-lg-0 py-lg-0"
+                href=""
+                ><span
+                  class="material-symbols-outlined text-brand-01 align-middle"
+                >
+                  shopping_bag </span
+                >付款運送說明</a
+              >
+              <a
+                class="d-inline-block link-gray-01 py-4 ps-4 pb-lg-2 ps-lg-0 py-lg-0"
+                href="#"
+                ><span
+                  class="material-symbols-outlined text-brand-01 align-middle"
+                >
+                  box </span
+                >商品退貨說明</a
+              >
+            </div>
+          </li>
+          <li>
+            <h4 class="text-gray-01 mt-9 mt-md-0 mb-lg-3 ms-4 ms-lg-0">
+              聯絡我們 Contact us
+            </h4>
+            <div class="">
+              <a
+                class="d-inline-block link-gray-01 py-4 ps-4 mb-lg-2 ps-lg-0 py-lg-0"
+                href="tel:+886-1-1111111"
+                ><span
+                  class="material-symbols-outlined text-brand-01 align-middle"
+                >
+                  call </span
+                >服務電話 111-111-111</a
+              >
+              <p class="text-gray-01 py-4 ps-4 pb-lg-2 ps-lg-0 py-lg-0">
+                <span
+                  class="material-symbols-outlined text-brand-01 align-middle"
+                >
+                  store </span
+                >服務時間 11:00 - 17:00
+              </p>
+            </div>
+          </li>
+          <li class="d-flex flex-column">
+            <h4
+              class="text-gray-01 mt-9 mt-md-0 mb-lg-3 pt-9 pt-md-0 media-br ms-4 ms-lg-0"
+            >
+              社群媒體 Social Media
+            </h4>
+            <div class="ms-4 ms-lg-0">
+              <a class="text-gray-01 media d-inline me-3 mb-lg-2" href="#"
+                ><i class="bi bi-facebook d-inline"></i
+              ></a>
+              <a class="text-gray-01 media" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="py-0 py-lg-10 footer-br">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <h2>
+            <a class="logo-style" href="../pages/index.html">毛茸茸的朋友</a>
+          </h2>
+          <p class="footer-fs footer-w ms-4 ms-lg-0">
+            愛你的毛小孩，如愛你的家人一樣。給牠最好的選擇
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+</body>
+
+</html>
