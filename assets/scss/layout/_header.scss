@@ -1,0 +1,77 @@
+.logo {
+  float: left;
+}
+
+.logo-style {
+  display: block;
+  width: 192px;
+  height: 58px;
+  background-image: url(/assets/images/logo.png);
+  background-position: center;
+  background-size: cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .logo-style {
+    width: 299px;
+    height: 99px;
+  }
+}
+.header-icon {
+  display: inline-block;
+  color: #e7adac;
+  font-size: 30px;
+}
+.header-icon:hover {
+  color: #888888;
+}
+@media (min-width: 992px) {
+  .header-icon {
+    font-size: 44px;
+  }
+}
+
+.badge-style {
+  font-size: 0.5rem;
+}
+@media (min-width: 992px) {
+  .badge-style {
+    font-size: 0.65rem;
+  }
+}
+
+.ion-me {
+  margin-right: 100px;
+}
+@media (min-width: 992px) {
+  .ion-me {
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-ps {
+    margin: 0 auto;
+  }
+  .me-120 {
+    margin-right: 120px;
+  }
+}
+
+.register {
+  margin-top: 146.98px;
+}
+
+.position-nav {
+  position: absolute;
+  top: -50px;
+  right: 30px;
+  border: 0px;
+}
+
+.dropdown-item:hover {
+  background-color: #f3d9d8;
+}
