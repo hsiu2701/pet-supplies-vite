@@ -192,3 +192,139 @@
     fill: white;
   }
 }
+
+// 圓
+
+@media (min-width: 768px) {
+  .box {
+    &::after {
+      position: absolute;
+      content: "";
+      width: 200px;
+      height: 200px;
+      color: #fff;
+      border-radius: 50%;
+      line-height: 100px;
+      background: linear-gradient(to right, #ffff 0%, #f3d9d8 100%);
+      left: -100px;
+      top: -70px;
+      z-index: 1;
+    }
+  }
+  .box-index {
+    position: relative;
+    z-index: 15;
+  }
+
+  .box2 {
+    &::after {
+      position: absolute;
+      content: "";
+      width: 400px;
+      height: 400px;
+      color: #fff;
+      border-radius: 50%;
+      line-height: 100px;
+      background: linear-gradient(to right, #ffff 0%, #f3d9d8 100%);
+      left: 60px;
+      top: -40px;
+      z-index: 1;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 200px;
+      height: 200px;
+      color: #fff;
+      border-radius: 50%;
+      line-height: 100px;
+      background: linear-gradient(to right, #ffff 0%, #f3d9d8 100%);
+      right: 60px;
+      top: -40px;
+      z-index: 1;
+    }
+  }
+}
+
+// 輪播商品
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  margin: 30px auto;
+}
+@media (min-width: 768px) {
+  .swiper {
+    height: 350px;
+  }
+}
+
+.swiper-button-prev {
+  color: #e7adac;
+}
+
+.swiper-button-next {
+  color: #e7adac;
+}
+
+// 消費著回饋卡片
+
+.consumer-card {
+  width: 320px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .consumer-card {
+    width: 210px;
+  }
+}
+
+.consumer-tumb {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .consumer-tumb {
+    height: 180px;
+  }
+}
+
+.consumer-tumb img {
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .consumer-tumb img {
+    width: 100%;
+  }
+}
+
+.consumer-details {
+  padding: 10px;
+}
+
+.consumer-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #363636;
+}
+
+.consumer-details p {
+  font-size: 12px;
+}
