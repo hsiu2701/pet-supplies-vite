@@ -85,3 +85,37 @@
 .btn-selected {
 background-color: $brand-02;
 }
+
+.about-product {
+  img {
+    height: 378px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+th {
+  background-color: $gray-04;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  vertical-align: top;
+  .content {
+    margin: 15px 0 15px 40px;
+  }
+}
+.title {
+  text-align: left; 
+  font-weight: bold;
+  display: block; 
+  margin:12px 0 12px 40px; 
+}
+
+
+  
