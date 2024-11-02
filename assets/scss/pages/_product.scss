@@ -1,12 +1,11 @@
-
 // 路徑
 .breadcrumb {
   display: flex;
-  align-items: center; 
-  height :69px;
+  align-items: center;
+  height: 69px;
   background-color: $brand-01;
   font-size: 24px;
-  a  {
+  a {
     color: $gray-05;
   }
   .breadcrumb-item.active {
@@ -21,7 +20,7 @@
 .carousel-main-img {
   width: auto;
   height: 354px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
@@ -37,9 +36,9 @@
 }
 
 .carousel-thumbnail-img {
-  width: auto; 
-  height: 107px; 
-  object-fit: contain; 
+  width: auto;
+  height: 107px;
+  object-fit: contain;
 }
 
 // 右側敘述設定
@@ -48,8 +47,8 @@
 }
 
 .btn-outline-gray {
-  border-color: $gray-01; 
-  color: $gray-01; 
+  border-color: $gray-01;
+  color: $gray-01;
 }
 
 .quantity-input {
@@ -64,7 +63,7 @@
     margin: 55px 68px;
   }
   .product-title {
-    margin:50px;
+    margin: 50px;
   }
 }
 // 按鈕設定
@@ -75,15 +74,15 @@
 }
 
 .btn-add-to-watchlist {
-  color :black;
+  color: black;
 }
 
 .btn:hover {
-    background-color: $brand-02; 
-    color: $gray-01;
+  background-color: $brand-02;
+  color: $gray-01;
 }
 .btn-selected {
-background-color: $brand-02;
+  background-color: $brand-02;
 }
 
 .about-product {
@@ -110,11 +109,8 @@ td {
   }
 }
 .title {
-  text-align: left; 
+  text-align: left;
   font-weight: bold;
-  display: block; 
-  margin:12px 0 12px 40px; 
+  display: block;
+  margin: 12px 0 12px 40px;
 }
-
-
-  
